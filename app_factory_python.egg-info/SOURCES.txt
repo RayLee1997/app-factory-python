@@ -1,0 +1,11 @@
+pyproject.toml
+app/__init__.py
+app/main.py
+app_factory_python.egg-info/PKG-INFO
+app_factory_python.egg-info/SOURCES.txt
+app_factory_python.egg-info/dependency_links.txt
+app_factory_python.egg-info/requires.txt
+app_factory_python.egg-info/top_level.txt
+config/__init__.py
+config/config.py
+test/test_openai_api.py
