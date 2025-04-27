@@ -13,7 +13,10 @@ client = OpenAI(api_key=settings.openai_api_key)
 
 def test_openai_api_key_present():
     # Ensure the API key is loaded from environment
+    print(f"OPENAI_API_KEY: {settings.openai_api_key}")
+
     assert settings.openai_api_key, "OPENAI_API_KEY is not set in environment"
+
     logger.info("OPENAI_API_KEY loaded: %s", settings.openai_api_key)
 
 
