@@ -17,3 +17,5 @@ __pycache__/
 # Config environment files
 config/.env.dev
 config/.env.prod
+logs/
+dist/
