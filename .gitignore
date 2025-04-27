@@ -1,0 +1,19 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# VSCode workspace settings
+.vscode/
+
+# Pytest cache directory
+.pytest_cache/
+
+# Environment variable files
+.env
+.env.*
+# Config environment files
+config/.env.dev
+config/.env.prod
